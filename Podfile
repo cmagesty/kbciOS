@@ -6,6 +6,7 @@ target 'kbciOS' do
   use_frameworks!
 
   # Pods for kbciOS
+  pod 'Jukebox'
 
   target 'kbciOSTests' do
     inherit! :search_paths

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Jukebox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-kbciOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A521FD5A46DDD3CBBB218DE11ECB37E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57A0A742DCF47C5A525E6E40F9EF86BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F31D2D289BC4BAB12628D0E722C01DB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F8C097BF230C6DE15C7E2960377E62B6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F921940913BE3D7994D2684AF4D8E066</key>
 		<dict>
 			<key>primary</key>
 			<true/>
