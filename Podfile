@@ -5,9 +5,7 @@ target 'kbciOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for kbciOS
-  pod 'Jukebox'
-  
+  # Pods for kbciOS  
   pod 'Firebase/Core'
 
   target 'kbciOSTests' do
