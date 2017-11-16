@@ -7,6 +7,8 @@ target 'kbciOS' do
 
   # Pods for kbciOS
   pod 'Jukebox'
+  
+  pod 'Firebase/Core'
 
   target 'kbciOSTests' do
     inherit! :search_paths

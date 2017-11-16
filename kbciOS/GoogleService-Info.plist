@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>445861328235-hapu68qi6r447517i5lsn3vt1pica7rg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.445861328235-hapu68qi6r447517i5lsn3vt1pica7rg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyARNLoCv2NBaC_V1F1WmqDpI5zuukfm3ds</string>
+	<key>GCM_SENDER_ID</key>
+	<string>445861328235</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.cocoapods.Pods-kbciOS</string>
+	<key>PROJECT_ID</key>
+	<string>kbc-atom</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kbc-atom.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:445861328235:ios:55f0a510b5a74e42</string>
+	<key>DATABASE_URL</key>
+	<string>https://kbc-atom.firebaseio.com</string>
+</dict>
+</plist>

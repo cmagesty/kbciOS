@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83837CBC1FBE032300E730DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83837CBB1FBE032300E730DB /* GoogleService-Info.plist */; };
 		83AE3D991ED1DB8A00B97D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3D981ED1DB8A00B97D10 /* AppDelegate.swift */; };
 		83AE3D9B1ED1DB8A00B97D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3D9A1ED1DB8A00B97D10 /* ViewController.swift */; };
 		83AE3D9E1ED1DB8A00B97D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3D9C1ED1DB8A00B97D10 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		087FB7536B3D625010192F0C /* Pods-kbciOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kbciOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kbciOSTests/Pods-kbciOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE343D0EB04E0320ADB645D /* Pods_kbciOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kbciOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77967B695DC414ABDD90ECFA /* Pods-kbciOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kbciOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kbciOSUITests/Pods-kbciOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83837CBB1FBE032300E730DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		83AE3D951ED1DB8A00B97D10 /* kbciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kbciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE3D981ED1DB8A00B97D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AE3D9A1ED1DB8A00B97D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				83AE3DA11ED1DB8A00B97D10 /* LaunchScreen.storyboard */,
 				83AE3DA41ED1DB8A00B97D10 /* Info.plist */,
 				83F7FA431F368988005E0C46 /* Audio.swift */,
+				83837CBB1FBE032300E730DB /* GoogleService-Info.plist */,
 			);
 			path = kbciOS;
 			sourceTree = "<group>";
@@ -240,23 +243,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Christopher Magesty";
 				TargetAttributes = {
 					83AE3D941ED1DB8A00B97D10 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 642Y56GPE5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					83AE3DA81ED1DB8A00B97D10 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 642Y56GPE5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 83AE3D941ED1DB8A00B97D10;
 					};
 					83AE3DB31ED1DB8A00B97D10 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 642Y56GPE5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 83AE3D941ED1DB8A00B97D10;
 					};
@@ -288,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AE3DA31ED1DB8A00B97D10 /* LaunchScreen.storyboard in Resources */,
+				83837CBC1FBE032300E730DB /* GoogleService-Info.plist in Resources */,
 				83AE3DA01ED1DB8A00B97D10 /* Assets.xcassets in Resources */,
 				83AE3D9E1ED1DB8A00B97D10 /* Main.storyboard in Resources */,
 			);
@@ -519,7 +526,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -527,7 +536,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -570,7 +583,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -578,7 +593,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -614,7 +633,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -628,7 +648,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -643,7 +664,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kbciOS.app/kbciOS";
 			};
 			name = Debug;
@@ -659,7 +681,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kbciOS.app/kbciOS";
 			};
 			name = Release;
@@ -674,7 +697,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = kbciOS;
 			};
 			name = Debug;
@@ -689,7 +713,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.kbciOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = kbciOS;
 			};
 			name = Release;
