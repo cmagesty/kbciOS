@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		83837CBC1FBE032300E730DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83837CBB1FBE032300E730DB /* GoogleService-Info.plist */; };
+		83837CC01FBE4C2000E730DB /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83837CBF1FBE4C2000E730DB /* HomePageViewController.swift */; };
+		83837CC21FBE877800E730DB /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83837CC11FBE877800E730DB /* ConnectViewController.swift */; };
 		83AE3D991ED1DB8A00B97D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3D981ED1DB8A00B97D10 /* AppDelegate.swift */; };
-		83AE3D9B1ED1DB8A00B97D10 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3D9A1ED1DB8A00B97D10 /* MainPageViewController.swift */; };
 		83AE3D9E1ED1DB8A00B97D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3D9C1ED1DB8A00B97D10 /* Main.storyboard */; };
 		83AE3DA01ED1DB8A00B97D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3D9F1ED1DB8A00B97D10 /* Assets.xcassets */; };
 		83AE3DA31ED1DB8A00B97D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3DA11ED1DB8A00B97D10 /* LaunchScreen.storyboard */; };
@@ -43,9 +44,10 @@
 		5EE343D0EB04E0320ADB645D /* Pods_kbciOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kbciOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77967B695DC414ABDD90ECFA /* Pods-kbciOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kbciOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kbciOSUITests/Pods-kbciOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83837CBB1FBE032300E730DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83837CBF1FBE4C2000E730DB /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = /Users/Chris/GitHub/kbciOS/kbciOS/HomePageViewController.swift; sourceTree = "<absolute>"; };
+		83837CC11FBE877800E730DB /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		83AE3D951ED1DB8A00B97D10 /* kbciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kbciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE3D981ED1DB8A00B97D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83AE3D9A1ED1DB8A00B97D10 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		83AE3D9D1ED1DB8A00B97D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83AE3D9F1ED1DB8A00B97D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AE3DA21ED1DB8A00B97D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -119,13 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				83AE3D981ED1DB8A00B97D10 /* AppDelegate.swift */,
-				83AE3D9A1ED1DB8A00B97D10 /* MainPageViewController.swift */,
+				83837CBF1FBE4C2000E730DB /* HomePageViewController.swift */,
 				83AE3D9C1ED1DB8A00B97D10 /* Main.storyboard */,
 				83AE3D9F1ED1DB8A00B97D10 /* Assets.xcassets */,
 				83AE3DA11ED1DB8A00B97D10 /* LaunchScreen.storyboard */,
 				83AE3DA41ED1DB8A00B97D10 /* Info.plist */,
 				83F7FA431F368988005E0C46 /* Audio.swift */,
 				83837CBB1FBE032300E730DB /* GoogleService-Info.plist */,
+				83837CC11FBE877800E730DB /* ConnectViewController.swift */,
 			);
 			path = kbciOS;
 			sourceTree = "<group>";
@@ -459,9 +462,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83837CC01FBE4C2000E730DB /* HomePageViewController.swift in Sources */,
 				83F7FA441F368988005E0C46 /* Audio.swift in Sources */,
-				83AE3D9B1ED1DB8A00B97D10 /* MainPageViewController.swift in Sources */,
 				83AE3D991ED1DB8A00B97D10 /* AppDelegate.swift in Sources */,
+				83837CC21FBE877800E730DB /* ConnectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

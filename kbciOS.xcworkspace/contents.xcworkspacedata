@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/Chris/GitHub/kbciOS/kbciOS/HomePageViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:kbciOS.xcodeproj">
    </FileRef>
    <FileRef
